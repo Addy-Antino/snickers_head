@@ -111,7 +111,7 @@ function Login({ setIsAuthenticated }) {
 
     //performing login using the axios...
     axios
-      .post("http://192.168.11.102:3000/api/v1/login", {
+      .post("https://sneaker-head-1.adityarupdatta.repl.co/api/v1/login", {
         email,
         password,
       })
@@ -160,7 +160,7 @@ function Login({ setIsAuthenticated }) {
 
     ///this api is for registering.././...
     axios
-      .post("http://192.168.11.102:3000/api/v1/register", {
+      .post("https://sneaker-head-1.adityarupdatta.repl.co/api/v1/register", {
         name,
         email,
         password,
